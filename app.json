@@ -16,8 +16,8 @@
       "description": "access token of slack, You can generate it in https://api.slack.com/web#auth",
       "value": ""
     },
-    "SLACK_TOKEN": {
-      "description": "Invite Channel",
+    "SLACK_CHANNELS": {
+      "description": "Invite Channels",
       "value": "",
       "required": false
     },
