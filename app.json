@@ -17,7 +17,7 @@
       "value": ""
     },
     "SLACK_CHANNELS": {
-      "description": "Invite Channels",
+      "description": "Invite Channel's IDs",
       "value": "",
       "required": false
     },
