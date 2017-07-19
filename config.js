@@ -10,9 +10,10 @@ module.exports = {
   //
   // You can test your token via curl:
   //   curl -X POST 'https://YOUR-SLACK-TEAM.slack.com/api/users.admin.invite' \
-  //   --data 'email=EMAIL&token=TOKEN&set_active=true' \
+  //   --data 'email=EMAIL&channels=CHANNEL_ID&token=TOKEN&set_active=true' \
   //   --compressed
   slacktoken: process.env.SLACK_TOKEN || 'YOUR-ACCESS-TOKEN',
+  channels:  process.env.SLACK_CHANNELS || 'CHANNEL-ID',
   // an optional security measure - if it is set, then that token will be required to get invited.
   inviteToken: process.env.INVITE_TOKEN || null,
 

@@ -51,7 +51,7 @@ You can test your token via curl:
 
   ```shell
    curl -X POST 'https://YOUR-SLACK-TEAM.slack.com/api/users.admin.invite' \
-   --data 'email=EMAIL&token=TOKEN&set_active=true' \
+   --data 'email=EMAIL&channels=CHANNEL_ID&token=TOKEN&set_active=true' \
    --compressed
   ```
 

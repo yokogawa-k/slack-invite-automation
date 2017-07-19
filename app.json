@@ -16,6 +16,11 @@
       "description": "access token of slack, You can generate it in https://api.slack.com/web#auth",
       "value": ""
     },
+    "SLACK_TOKEN": {
+      "description": "Invite Channel",
+      "value": "",
+      "required": false
+    },
     "INVITE_TOKEN": {
       "description": "Shared invite token used to get access. Leave blank if you don't want users to have to provide a token.",
       "value": "",
