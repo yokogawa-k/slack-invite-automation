@@ -16,6 +16,9 @@ module.exports = {
   channels:  process.env.SLACK_CHANNELS || 'CHANNEL-ID',
   // an optional security measure - if it is set, then that token will be required to get invited.
   inviteToken: process.env.INVITE_TOKEN || null,
-
+  // an optional security measure - if both are set, then recaptcha will be used.
+  recaptchaSiteKey: process.env.RECAPTCHA_SITE || null,
+  recaptchaSecretKey: process.env.RECAPTCHA_SECRET || null,
+  // default locale
   locale: process.env.LOCALE || "en",
 };
